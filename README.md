@@ -8,11 +8,12 @@ Figure 1: Conditional Probability Bar Chart
 <img width="1190" height="490" alt="image" src="https://github.com/user-attachments/assets/b602e7a2-e424-4fd1-a7e6-71941f77ee33" />
 Here, each bar represents one audio feature (energy, danceability, etc.), and its height is the probability that a song is highly popular, 
 given that feature is High. The dashed baseline shows the probability of high popularity in the dataset overall (~18.8%). So a green 
-bar means that feature is a positive signal — songs that score High in it are more popular than average — and a red bar means the opposite. 
+bar means that feature is a positive signal, songs that score High in it are more popular than average. and a red bar means the opposite. 
 
 
 
 Figure 2:
+
 <img width="852" height="590" alt="image" src="https://github.com/user-attachments/assets/81ebb7e5-c7ba-4dfb-b09e-c828604f7375" />
 Ideally we want rules in the top-right corner (common and reliable) with warm colors (high lift). Notice the lift values are all pretty close to 1.0, 
 which visually reinforces that audio features aren't strong popularity predictors.
@@ -20,6 +21,7 @@ which visually reinforces that audio features aren't strong popularity predictor
 
 
 Figure 3:
+
 <img width="787" height="690" alt="image" src="https://github.com/user-attachments/assets/55efd990-7754-4f5f-9a93-0f24dbe3ac79" />
 This show the 10 best rules and puts support, confidence, and lift side by side for easy comparison (darker blue = higher value). 
 Note how often short duration comes up as well as the consequents (things we're predicting) being medium popularity. 
