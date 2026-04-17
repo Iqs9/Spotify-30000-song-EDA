@@ -11,10 +11,12 @@ given that feature is High. The dashed baseline shows the probability of high po
 bar means that feature is a positive signal — songs that score High in it are more popular than average — and a red bar means the opposite. 
 
 
+
 Figure 2:
 <img width="852" height="590" alt="image" src="https://github.com/user-attachments/assets/81ebb7e5-c7ba-4dfb-b09e-c828604f7375" />
 Ideally we want rules in the top-right corner (common and reliable) with warm colors (high lift). Notice the lift values are all pretty close to 1.0, 
 which visually reinforces that audio features aren't strong popularity predictors.
+
 
 
 Figure 3:
