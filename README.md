@@ -15,6 +15,7 @@ bar means that feature is a positive signal, songs that score High in it are mor
 Figure 2:
 
 <img width="852" height="590" alt="image" src="https://github.com/user-attachments/assets/81ebb7e5-c7ba-4dfb-b09e-c828604f7375" />
+
 Ideally we want rules in the top-right corner (common and reliable) with warm colors (high lift). Notice the lift values are all pretty close to 1.0, 
 which visually reinforces that audio features aren't strong popularity predictors.
 
@@ -23,8 +24,10 @@ which visually reinforces that audio features aren't strong popularity predictor
 Figure 3:
 
 <img width="787" height="690" alt="image" src="https://github.com/user-attachments/assets/55efd990-7754-4f5f-9a93-0f24dbe3ac79" />
+
 This show the 10 best rules and puts support, confidence, and lift side by side for easy comparison (darker blue = higher value). 
 Note how often short duration comes up as well as the consequents (things we're predicting) being medium popularity. 
+
 
 
 Conclusion: 
